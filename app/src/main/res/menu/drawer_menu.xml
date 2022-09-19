@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/empty"
+            android:checkable="false"
+            android:enabled="false"
+            app:showAsAction="never"
+            tools:ignore="MenuTitle" />
+        <item
+            android:id="@+id/principal"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/editNumEtqsCaja"
+            android:icon="@drawable/edit_box"
+            android:title="@string/numero_etiquetas" />
+        <item
+            android:id="@+id/formatoArchivo"
+            android:icon="@drawable/archivo"
+            android:title="@string/formato_archivo" />
+        <item
+            android:id="@+id/checkPermisoEtqs"
+            android:icon="@drawable/archivo"
+            android:title="@string/repeticion_etiquetas" />
+        <item
+            android:id="@+id/vaciar_carpeta"
+            android:icon="@drawable/eliminar_carpeta"
+            android:title="@string/vaciar_carpeta" />
+
+    </group>
+</menu>
